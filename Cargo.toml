@@ -1,0 +1,16 @@
+[package]
+name = "push-extended"
+version = "1.0.0"
+edition = "2021"
+about = "Provide a set additional features to aid in importing a Mirror/Bare git repo into a centralized repo."
+long_about = "This tool is meant to aid and facilate in the concepts being develop for a Multisite System. It needs to support concepts such as improting an exteral site to a subBranch, importing only subset of breanches/tags, and cobinations there of."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.2", features = ["cargo"] }
+grep-regex = "0.1.11"
+grep-searcher = "0.1.11"
+rand = "0.8.5"
+substring = "1.4.5"
+yaml-rust = "0.4.5"
